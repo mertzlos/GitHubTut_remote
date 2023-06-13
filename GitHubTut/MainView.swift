@@ -9,11 +9,11 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack {
-           
+        ZStack {
+            Color.green.ignoresSafeArea()
             Text("Hello, world!")
         }
-        .padding()
+        
     }
 }
 
